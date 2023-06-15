@@ -1,0 +1,9 @@
+<launch>
+    <!-- My package launch file -->
+    <node pkg="my_package" type="detec_lane.py" name="lane_detection_node" output="screen">
+    </node>
+
+    <node pkg="my_package" type="lane_follow.py" name="lane_following_node" output="screen">
+    </node>
+
+</launch>
