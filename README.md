@@ -1,7 +1,10 @@
 # Seguimiento_de_linea_turtlebot
 A.	Detección de línea
+
 Primero se inicializa el nodo “lane_detection_node”, este nodo se suscribe al tópico /camera/image, el cual transporta el mensaje de la cámara. El mensaje se lleva a la función image_callback.
+
 1.	Redimensionar y procesar la imagen
+
 En la siguiente imagen (Figura 4) se compara la imagen original que muestra la cámara (izquierda) con la imagen redimensionada (derecha). Esto se realiza para poder ver mucho mejor los cambios realizados y para más comodidad. Las dimensiones de la imagen izquierda son x=320, y=240, y se redimensiona a x=640, y=480
  
 Figura 4. Imagen original y redimensionada
