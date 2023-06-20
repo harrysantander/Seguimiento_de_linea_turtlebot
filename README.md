@@ -5,7 +5,9 @@ Primero se inicializa el nodo “lane_detection_node”, este nodo se suscribe a
 
 1.	Redimensionar y procesar la imagen
 
-En la siguiente imagen (Figura 4) se compara la imagen original que muestra la cámara (izquierda) con la imagen redimensionada (derecha). Esto se realiza para poder ver mucho mejor los cambios realizados y para más comodidad. Las dimensiones de la imagen izquierda son x=320, y=240, y se redimensiona a x=640, y=480
+En la siguiente imagen (Figura 4) se compara la imagen original que muestra la cámara (izquierda) con la imagen redimensionada (derecha). Esto se realiza para poder ver mucho mejor los cambios realizados y para más comodidad. Las dimensiones de la imagen izquierda son x=320, y=240, y se redimensiona a x=640, y=480.
+
+
  
 Figura 4. Imagen original y redimensionada
 Después de redimensionar la imagen, se convierte la imagen a escala de grises (Figura 5).
