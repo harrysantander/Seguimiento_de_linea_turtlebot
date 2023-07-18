@@ -1,4 +1,7 @@
 # Seguimiento de linea Turtlebot
+
+https://www.youtube.com/watch?v=Kk5vHLBWLjg
+
 ## Requisitos previos
 - Ubuntu 20.04 LTS
 
@@ -104,4 +107,5 @@ $roslaunch turtlebot3_gazebo turtlebot3_autorace.launch
 Ejecutar el algoritmo del seguimiento de linea
 
 $roslaunch my_package lane_following.launch
+
 
