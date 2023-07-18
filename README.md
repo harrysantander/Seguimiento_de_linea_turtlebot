@@ -87,3 +87,21 @@ $git clone https://github.com/harrysantander/Seguimiento_de_linea_turtlebot
    
 $cd && cd catkin_ws && catkin_make
 
+9. Abre un terminal nuevo
+
+Ejecutar el master
+
+$roscore
+
+10. Abrir otro terminal nuevo
+
+Ejecutar el nodo gazebo para la simulación
+
+$roslaunch turtlebot3_gazebo turtlebot3_autorace.launch
+
+11. Abre otro terminal
+
+Ejecutar el algoritmo del seguimiento de linea
+
+$roslaunch my_package lane_following.launch
+
